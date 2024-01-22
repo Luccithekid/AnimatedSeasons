@@ -128,3 +128,48 @@ section .set div:nth-child(8)
     background: radial-gradient(rgb(4, 241, 182),#f3ba00);
 }
  
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+ 
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Poppin", sans-serif;
+}
+    
+
+body {
+    min-height: 100vh;
+    background-image: url(wall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: #f10a0a57;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 35px;
+    color:#030303;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
